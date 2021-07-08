@@ -4,5 +4,10 @@
       "source": "/(.*)",
       "destination": "/api/og-image/"
     }
-  ]
+  ],
+  "functions": {
+    "api/og-image.js": {
+      "maxDuration": 60
+    }
+  }
 }
